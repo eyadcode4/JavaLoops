@@ -3,7 +3,7 @@ package eyad.dev;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MultiplicationTable5 {
+public class MultiplicationTable {
     public static List<Integer> multiply(int n) {
 
         List<Integer> multiples5 = new ArrayList<>();

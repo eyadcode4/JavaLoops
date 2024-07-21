@@ -10,7 +10,7 @@ public class MultiplicationTableTest {
      @Test
     void testMultiply() {
         List<Integer> expected = List.of(5, 10, 15, 20, 25, 30, 35, 40, 45, 50);
-        List<Integer> result = MultiplicationTable5.multiply(5);
+        List<Integer> result = MultiplicationTable.multiply(5);
         assertEquals(expected, result);
 
     }
